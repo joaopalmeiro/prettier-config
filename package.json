@@ -1,0 +1,38 @@
+{
+    "name": "@joaopalmeiro/prettier-config",
+    "version": "0.0.1",
+    "description": "My personal Prettier config.",
+    "main": "index.json",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaopalmeiro/prettier-config.git"
+    },
+    "author": {
+        "name": "João Palmeiro",
+        "email": "jm.palmeiro@campus.fct.unl.pt",
+        "url": "https://joaopalmeiro.github.io/"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/joaopalmeiro/prettier-config/issues"
+    },
+    "homepage": "https://github.com/joaopalmeiro/prettier-config#readme",
+    "keywords": [
+        "prettier",
+        "prettier-config"
+    ],
+    "volta": {
+        "node": "16.13.1",
+        "npm": "8.1.2"
+    },
+    "peerDependencies": {
+        "prettier": "^2.4.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^16.0.0",
+        "@commitlint/config-conventional": "^16.0.0",
+        "husky": "^7.0.4",
+        "prettier": "^2.5.1"
+    },
+    "prettier": "./index.json"
+}
