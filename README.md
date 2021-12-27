@@ -16,6 +16,12 @@ or
 yarn add --dev @joaopalmeiro/prettier-config
 ```
 
+or
+
+```bash
+pnpm add --save-dev @joaopalmeiro/prettier-config
+```
+
 **Edit `package.json`**:
 
 ```json
