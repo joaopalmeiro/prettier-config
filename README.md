@@ -38,6 +38,7 @@ pnpm add --save-dev @joaopalmeiro/prettier-config
 - [Sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations) documentation.
 - [@zestia/prettier-config](https://github.com/zestia/prettier-config) package.
 - [Configuration Overrides](https://prettier.io/docs/en/configuration.html#configuration-overrides) documentation.
+- [@will-stone/prettier-config](https://github.com/will-stone/dx/tree/main/packages/prettier-config) package.
 
 ## Development
 
