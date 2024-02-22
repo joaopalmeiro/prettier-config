@@ -17,6 +17,10 @@
 - https://yarnpkg.com/cli/add#options
 - https://pnpm.io/cli/add#--save-dev--d
 - https://bun.sh/docs/cli/add#dev
+- https://github.com/prettier/prettier/releases
+- https://prettier.io/blog/
+- https://prettier.io/blog/2024/01/12/3.2.0.html
+- https://npmpackagejsonlint.org/docs/cli
 
 ## Snippets
 
@@ -33,4 +37,42 @@ module.exports = { extends: ['@commitlint/config-conventional'] };
 . "$(dirname "$0")/_/husky.sh"
 
 npx --no -- commitlint --edit --verbose
+```
+
+### `.github/workflows/npm-publish.yml`
+
+```yml
+# Source:
+# - https://github.com/actions/starter-workflows/blob/main/ci/npm-publish.yml
+# - https://github.com/egoist/prettier-config/blob/master/.github/workflows/node.js.yml
+# - https://github.com/actions/setup-node
+# - https://typicode.github.io/husky/#/?id=disable-husky-in-cidocker
+# - https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages#publishing-packages-to-the-npm-registry
+# - https://docs.npmjs.com/creating-and-publishing-scoped-public-packages#publishing-scoped-public-packages
+name: Node.js Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.13.1'
+          registry-url: 'https://registry.npmjs.org/'
+      - run: npm ci --omit=dev --ignore-scripts
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+```
+
+## Commands
+
+```bash
+npm install -D prettier publint sort-package-json npm-run-all2 npm-package-json-lint
 ```
