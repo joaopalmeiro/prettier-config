@@ -102,7 +102,7 @@ npm login
 ```
 
 ```bash
-npm publish --access public
+npm publish
 ```
 
 - Check [npm](https://www.npmjs.com/package/@joaopalmeiro/prettier-config).

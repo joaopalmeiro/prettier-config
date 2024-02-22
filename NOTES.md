@@ -21,6 +21,8 @@
 - https://prettier.io/blog/
 - https://prettier.io/blog/2024/01/12/3.2.0.html
 - https://npmpackagejsonlint.org/docs/cli
+- https://docs.npmjs.com/cli/v10/configuring-npm/package-json#repository
+- https://nodejs.org/api/packages.html#type
 
 ## Snippets
 

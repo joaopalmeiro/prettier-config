@@ -1,6 +1,7 @@
 {
     "name": "@joaopalmeiro/prettier-config",
     "version": "0.1.1",
+    "private": false,
     "description": "My personal Prettier config.",
     "keywords": [
         "prettier",
@@ -12,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/joaopalmeiro/prettier-config.git"
+        "url": "https://github.com/joaopalmeiro/prettier-config.git"
     },
     "license": "MIT",
     "author": {
