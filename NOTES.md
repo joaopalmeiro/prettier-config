@@ -12,6 +12,8 @@
   - [Git Hooks](https://githooks.com/)
 - https://prettier.io/docs/en/configuration#configuration-schema: `https://json.schemastore.org/prettierrc`
 - https://github.com/prettier/prettier-vscode/tree/v10.1.0?tab=readme-ov-file#prettierrequireconfig-default-false
+- [Sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations) documentation
+- [Configuration Overrides](https://prettier.io/docs/en/configuration.html#configuration-overrides) documentation
 
 ## Snippets
 

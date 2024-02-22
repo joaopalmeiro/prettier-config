@@ -1,6 +1,6 @@
 # `@joaopalmeiro/prettier-config`
 
-> My personal [Prettier](https://prettier.io) config.
+My personal [Prettier](https://prettier.io) config.
 
 ## Usage
 
@@ -32,13 +32,7 @@ pnpm add --save-dev @joaopalmeiro/prettier-config
 
 ## References
 
-- [@egoist/prettier-config](https://github.com/egoist/prettier-config) package.
-- [@yuler/prettier-config](https://github.com/yuler/prettier-config) package.
-- [@azz/prettier-config](https://github.com/azz/prettier-config) package.
-- [Sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations) documentation.
-- [@zestia/prettier-config](https://github.com/zestia/prettier-config) package.
-- [Configuration Overrides](https://prettier.io/docs/en/configuration.html#configuration-overrides) documentation.
-- [@will-stone/prettier-config](https://github.com/will-stone/dx/tree/main/packages/prettier-config) package.
+Check out the [Awesome Prettier](https://gitlab.com/joaommpalmeiro/awesome-prettier) repo, please.
 
 ## Development
 
