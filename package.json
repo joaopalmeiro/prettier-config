@@ -21,6 +21,7 @@
         "url": "https://github.com/joaopalmeiro"
     },
     "main": "index.json",
+    "files": [],
     "scripts": {
         "format:code": "prettier . --write",
         "format:pkgJson": "sort-package-json",
