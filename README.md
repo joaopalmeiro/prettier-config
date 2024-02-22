@@ -2,9 +2,13 @@
 
 My personal [Prettier](https://prettier.io) config.
 
-## Usage
+- [Source code](https://github.com/joaopalmeiro/prettier-config)
+- [npm package](https://www.npmjs.com/package/@joaopalmeiro/prettier-config)
+- [Licenses](https://licenses.dev/npm/%40joaopalmeiro%2Fprettier-config/0.1.1)
 
-**Install**:
+## Getting Started
+
+### Installation
 
 ```bash
 npm install --save-dev @joaopalmeiro/prettier-config
@@ -22,12 +26,22 @@ or
 pnpm add --save-dev @joaopalmeiro/prettier-config
 ```
 
-**Edit `package.json`**:
+### Usage
+
+To use this configuration, choose one of the options below.
+
+#### Edit the `package.json` file
 
 ```json
 {
   "prettier": "@joaopalmeiro/prettier-config"
 }
+```
+
+#### Create a `.prettierrc` file
+
+```json
+"@joaopalmeiro/prettier-config"
 ```
 
 ## References
@@ -36,11 +50,16 @@ Check out the [Awesome Prettier](https://gitlab.com/joaommpalmeiro/awesome-prett
 
 ## Development
 
-- `npm install`.
-- `npm pack --dry-run`.
+Install [fnm](https://github.com/Schniz/fnm) (if necessary).
 
-## Deployment
+```bash
+fnm install && fnm use && node --version && npm --version
+```
 
-- `npm version minor` or `npm version patch` or `npm version major`.
-- `git push --follow-tags`.
+```bash
+npm install
+```
 
+```bash
+npm run format
+```
