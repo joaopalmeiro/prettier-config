@@ -26,6 +26,12 @@ or
 pnpm add --save-dev @joaopalmeiro/prettier-config
 ```
 
+or
+
+```bash
+bun add --dev @joaopalmeiro/prettier-config
+```
+
 ### Usage
 
 To use this configuration, choose one of the options below.

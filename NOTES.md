@@ -14,6 +14,9 @@
 - https://github.com/prettier/prettier-vscode/tree/v10.1.0?tab=readme-ov-file#prettierrequireconfig-default-false
 - [Sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations) documentation
 - [Configuration Overrides](https://prettier.io/docs/en/configuration.html#configuration-overrides) documentation
+- https://yarnpkg.com/cli/add#options
+- https://pnpm.io/cli/add#--save-dev--d
+- https://bun.sh/docs/cli/add#dev
 
 ## Snippets
 
