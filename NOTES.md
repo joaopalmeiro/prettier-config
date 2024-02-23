@@ -23,6 +23,7 @@
 - https://npmpackagejsonlint.org/docs/cli
 - https://docs.npmjs.com/cli/v10/configuring-npm/package-json#repository
 - https://nodejs.org/api/packages.html#type
+- https://github.com/snyk-snippets/modern-npm-package/blob/main/package.json
 
 ## Snippets
 
