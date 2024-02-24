@@ -24,6 +24,7 @@
 - https://docs.npmjs.com/cli/v10/configuring-npm/package-json#repository
 - https://nodejs.org/api/packages.html#type
 - https://github.com/snyk-snippets/modern-npm-package/blob/main/package.json
+- https://github.com/joaopalmeiro/npm-package-json-lint-config-package
 
 ## Snippets
 
@@ -77,5 +78,5 @@ jobs:
 ## Commands
 
 ```bash
-npm install -D prettier publint sort-package-json npm-run-all2 npm-package-json-lint
+npm install -D prettier publint sort-package-json npm-run-all2 npm-package-json-lint npm-package-json-lint-config-package
 ```
