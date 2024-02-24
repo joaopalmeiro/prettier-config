@@ -24,12 +24,12 @@
     "main": "index.json",
     "files": [],
     "scripts": {
+        "format": "run-s format:pkgJson format:code",
         "format:code": "prettier . --write",
         "format:pkgJson": "sort-package-json",
-        "format": "run-s format:pkgJson format:code",
+        "lint": "run-s lint:pkgJson lint:publint",
         "lint:pkgJson": "npmPkgJsonLint .",
-        "lint:publint": "publint --strict",
-        "lint": "run-s lint:pkgJson lint:publint"
+        "lint:publint": "publint --strict"
     },
     "prettier": "./index.json",
     "devDependencies": {
