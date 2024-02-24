@@ -4,7 +4,7 @@ My personal [Prettier](https://prettier.io) config.
 
 - [Source code](https://github.com/joaopalmeiro/prettier-config)
 - [npm package](https://www.npmjs.com/package/@joaopalmeiro/prettier-config)
-- [Licenses](https://licenses.dev/npm/%40joaopalmeiro%2Fprettier-config/0.1.1)
+- [Licenses](https://licenses.dev/npm/%40joaopalmeiro%2Fprettier-config/0.2.0)
 
 ## Getting Started
 
