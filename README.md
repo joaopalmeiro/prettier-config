@@ -50,9 +50,11 @@ To use this configuration, choose one of the options below.
 "@joaopalmeiro/prettier-config"
 ```
 
+Check the [Configuration Overrides](https://prettier.io/docs/en/configuration.html#configuration-overrides) and [Sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations) sections in the Prettier documentation to learn how to override this configuration.
+
 ## References
 
-Check out the [Awesome Prettier](https://gitlab.com/joaommpalmeiro/awesome-prettier) repo, please.
+Check out the [Awesome Prettier](https://gitlab.com/joaommpalmeiro/awesome-prettier) repo.
 
 ## Development
 
