@@ -24,6 +24,7 @@
     "main": "index.json",
     "files": [],
     "scripts": {
+        "check:prettier": "prettier . --check --log-level debug",
         "format": "run-s format:pkgJson format:code",
         "format:code": "prettier . --write",
         "format:pkgJson": "sort-package-json",
